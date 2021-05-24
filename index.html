@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>TinDog</title>
+  <meta charset="utf-8">  
+  <title>Dog-Companion</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300&display=swap"
@@ -37,19 +37,16 @@
         </button>
         <!-- for right placement of the brand link uncomment the below line and comment the above brand link line.. -->
         <!-- <a href="" class="navbar-brand">TECHIND</a> -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse change-navbar" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item ">
-              <a href="" class="nav-link"> Contact </a>
+              <a href="#footer" class="nav-link"> Contact </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link"> Pricing </a>
+              <a href="#pricing" class="nav-link"> Pricing </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link"> Branches </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link"> Models </a>
+              <a href="#cta" class="nav-link"> Download </a>
             </li>
           </ul>
         </div>
@@ -210,9 +207,11 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+      Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>
+      Download</button>
 
   </section>
 
@@ -220,7 +219,10 @@
   <!-- Footer -->
 
   <footer id="footer">
-
+    <i class="social-footer fab fa-facebook-f"></i>
+    <i class="social-footer fab fa-twitter"></i>
+    <i class="social-footer fab fa-instagram"></i>
+    <i class="social-footer fas fa-envelope"></i>
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
